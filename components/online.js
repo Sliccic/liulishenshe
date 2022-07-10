@@ -6,7 +6,7 @@ export default function App({ server = "sg" }) {
 
   var host;
   if(server == "正式服"){
-    host = "genshin.yuanshen.cf"
+    host = "www.mihoyou.top"
   }
   
   const { data, error } = useSWR(
