@@ -6,7 +6,7 @@ export default function App({ server = "sg" }) {
 
   var host;
   if(server == "正式服"){
-    host = "de.game.yuuki.me"
+    host = "opcc.cc"
   }
   
   const { data, error } = useSWR(
