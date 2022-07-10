@@ -6,7 +6,7 @@ export default function App({ server = "sg" }) {
 
   var host;
   if(server == "正式服"){
-    host = "opcc.cc"
+    host = "genshin.yuanshen.cf"
   }
   
   const { data, error } = useSWR(
