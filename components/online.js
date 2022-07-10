@@ -6,7 +6,7 @@ export default function App({ server = "sg" }) {
 
   var host;
   if(server == "正式服"){
-    host = "www.yuanshen.cf"
+    host = "de.game.yuuki.me"
   }
   
   const { data, error } = useSWR(
