@@ -32,21 +32,17 @@ export default function Home({ allPostsData }) {
         <div class="text-center py-3">
           
           <div class="stats bg-primary text-primary-content">
-            <Online server="天理一服" />
-            <Online server="天理二服" />
-            <Online server="天理魂服" />
+            <Online server="正式服" />
           </div>
 
         </div>
         
         <p class="text-center">
-          一服电脑：1.casks.me  手机：https://1.casks.me <br/>
-          二服电脑：2.casks.me  手机：https://2.casks.me <br/>
-          测试服电脑：soul.casks.me  手机：https://soul.casks.me <br/>
+          正式服电脑：www.yuanshen.cf  手机：https://www.yuanshen.cf <br/>
         </p>
 
         <p class="description">
-        <a href="https://casks.me" target="_blank" rel="sponsored">网站|教程</a>
+        <a href="https://www.yuanshen.cf" target="_blank" rel="sponsored">主页</a>
         </p>
 
       </div>
