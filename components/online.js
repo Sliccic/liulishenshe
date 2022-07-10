@@ -6,7 +6,7 @@ export default function App({ server = "sg" }) {
 
   var host;
   if(server == "正式服"){
-    host = "www.yuansheng.ml:4433"
+    host = "20.205.34.114"
   }
   
   const { data, error } = useSWR(
