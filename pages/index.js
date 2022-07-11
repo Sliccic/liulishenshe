@@ -24,13 +24,14 @@ export default function Home({ allPostsData }) {
         <h1 class="title">
           <br/>
           <br/>
-          <br/>
-          <br/>
           欢迎来到 {siteTitle}
+          
         </h1>
 
         <p class="description">
+          <br/>
           玩的开心哦！
+          <br/>
         </p>
 
         <div class="text-center py-3">
@@ -45,9 +46,6 @@ export default function Home({ allPostsData }) {
         
         <p class="text-center">
           <br/>
-          <br/>
-          <br/>
-          <br/>
           <br/>ㅤ
           养成服 电脑：www.yuanshen.cf          手机：https://www.yuanshen.cf<br/>
           <br/>
@@ -56,11 +54,15 @@ export default function Home({ allPostsData }) {
           测试服 电脑：敬请期待                  手机：敬请期待<br/>
           <br/>
           <br/>
+          <br/>
+          <br/>
            
         </p>
 
         <p class="description">
         <a href="https://www.yuanshen.cf" target="_blank" rel="sponsored">主页</a>
+        <br/>
+        <br/>
         </p>
 
       </div>
