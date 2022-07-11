@@ -32,7 +32,9 @@ export default function Layout({ children, home }) {
             )}
             <footer class="text-center py-3">
                 <p>
+                    <br/>
                     <a href="https://jq.qq.com/?_wv=1027&k=ZwPI5mOW" target="_blank" rel="sponsored">加群</a>
+                    <br/>
                 </p>
                 <p class="bottom">
                     <a href="https://github.com/casksteven/Casks-server" target="_blank" rel="sponsored">@Casksteven | 原作者Yuki</a>
