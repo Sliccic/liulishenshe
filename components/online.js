@@ -5,10 +5,11 @@ const fetcher = (url) => fetch(url).then((res) => res.json());
 export default function App({ server = "sg" }) {
 
   var host;
-  if(server == "正式服"){
+  if(server == "养成服"){
     host = "www.yuanshen.ml:4433"
+  } else if(server == "指令服"){
+    host = "106.13.5.214:4433"
   }
-  
   const { data, error } = useSWR(
     `https://${host}/status/server`,
     fetcher
