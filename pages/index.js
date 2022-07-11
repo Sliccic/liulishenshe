@@ -22,31 +22,43 @@ export default function Home({ allPostsData }) {
       <div class="home">
 
         <h1 class="title">
+          <br/>
           欢迎来到 {siteTitle}
         </h1>
 
         <p class="description">
+          <br/>
+          <br/>
           玩的开心哦！
+          <br/>
         </p>
 
         <div class="text-center py-3">
           
           <div class="stats bg-primary text-primary-content">
-            <Online server="天理一服" />
-            <Online server="天理二服" />
-            <Online server="天理魂服" />
+            <Online server="养成服" />
+            <Online server="指令服" />
+            <Online server="敬请期待" />
           </div>
 
         </div>
         
         <p class="text-center">
-          一服电脑：1.casks.me  手机：https://1.casks.me <br/>
-          二服电脑：2.casks.me  手机：https://2.casks.me <br/>
-          测试服电脑：soul.casks.me  手机：https://soul.casks.me <br/>
+          <br/>
+          <br/>
+          养成服 电脑：www.yuanshen.cf          手机：https://www.yuanshen.cf<br/>
+          <br/>
+          指令服 电脑：106.13.5.214:4433        手机：106.13.5.214:4433<br/>
+          <br/>
+          测试服 电脑：敬请期待                  手机：敬请期待<br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
         </p>
 
         <p class="description">
-        <a href="https://casks.me" target="_blank" rel="sponsored">网站|教程</a>
+        
         </p>
 
       </div>
