@@ -32,7 +32,7 @@ export default function Home({ allPostsData }) {
         <div class="text-center py-3">
           
           <div class="stats bg-primary text-primary-content">
-            <Online server="正式服" />
+            <Online server="养成服" />
           </div>
 
         </div>
