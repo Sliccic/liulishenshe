@@ -22,6 +22,10 @@ export default function Home({ allPostsData }) {
       <div class="home">
 
         <h1 class="title">
+          <br/>
+          <br/>
+          <br/>
+          <br/>
           欢迎来到 {siteTitle}
         </h1>
 
