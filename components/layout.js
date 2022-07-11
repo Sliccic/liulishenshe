@@ -30,7 +30,7 @@ export default function Layout({ children, home }) {
                     </h3>
                 </>
             )}
-            <footer class="text-center py-3">
+            <footer class="footer">
                 <p>
                     <a href="https://jq.qq.com/?_wv=1027&k=ZwPI5mOW" target="_blank" rel="sponsored">加群</a>
                 </p>
