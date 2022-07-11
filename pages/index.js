@@ -40,18 +40,19 @@ export default function Home({ allPostsData }) {
         </div>
         
         <p class="text-center">
-           ㅤ
-           ㅤ
-           ㅤ
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>ㅤ
           养成服 电脑：www.yuanshen.cf          手机：https://www.yuanshen.cf<br/>
-           ㅤ
+          <br/>
           指令服 电脑：106.13.5.214:4433        手机：106.13.5.214:4433<br/>
-             ㅤ
+          <br/>ㅤ
           测试服 电脑：敬请期待                  手机：敬请期待<br/>
-             ㅤ
- ㅤ
-  ㅤ
-   ㅤ
+          <br/>
+          <br/>
+           
         </p>
 
         <p class="description">
