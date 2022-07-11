@@ -24,7 +24,7 @@ export default function Home({ allPostsData }) {
         <h1 class="title">
        
           <br/>
-          欢迎来到 <font color=#f1b8f1>琉</font><font color=#d9b8f1>璃</font><font color=#f1ccb8>神</font><font color=#f1f1b8>社</font>
+          欢迎来到 {siteTitle}
           
         </h1>
 
