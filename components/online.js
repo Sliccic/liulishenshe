@@ -7,10 +7,6 @@ export default function App({ server = "sg" }) {
   var host;
   if(server == "养成服"){
     host = "www.yuanshen.ml:4433"
-  } else if(server == "指令服"){
-    host = "106.13.5.214:4433"
-  } else if(server == "即将开放"){
-    host = "www.ysycf.tk"
   }
 
   const { data, error } = useSWR(
