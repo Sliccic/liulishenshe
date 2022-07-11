@@ -7,10 +7,6 @@ export default function App({ server = "sg" }) {
   var host;
   if(server == "天理一服"){
     host = "1.casks.me"
-  } else if(server == "天理二服"){
-    host = "2.casks.me"
-  } else if(server == "天理魂服"){
-    host = "soul.casks.me"
   }
   
   const { data, error } = useSWR(
