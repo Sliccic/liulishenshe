@@ -22,13 +22,14 @@ export default function Home({ allPostsData }) {
       <div class="home">
 
         <h1 class="title">
-          <br/>
+       
           <br/>
           欢迎来到 {siteTitle}
           
         </h1>
 
         <p class="description">
+          <br/>
           <br/>
           玩的开心哦！
           <br/>
