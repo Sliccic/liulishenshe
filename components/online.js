@@ -38,4 +38,4 @@ export default function App({ server = "sg" }) {
       </div>
 
   );
-}q
+}
