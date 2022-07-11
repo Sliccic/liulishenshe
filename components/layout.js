@@ -30,11 +30,11 @@ export default function Layout({ children, home }) {
                     </h3>
                 </>
             )}
-            <footer class="footer">
+            <footer class="text-center py-3">
                 <p>
                     <a href="https://jq.qq.com/?_wv=1027&k=ZwPI5mOW" target="_blank" rel="sponsored">加群</a>
                 </p>
-                <p class="mt-4">
+                <p class="bottom">
                     <a href="https://github.com/casksteven/Casks-server" target="_blank" rel="sponsored">@Casksteven | 原作者Yuki</a>
                 </p>
 
