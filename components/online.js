@@ -6,11 +6,11 @@ export default function App({ server = "sg" }) {
 
   var host;
   if(server == "养成服"){
-    host = "1.casks.me"
+    host = "www.yuanshen.ml:4433"
   } else if(server == "指令服"){
-    host = "2.casks.me"
+    host = "106.13.5.214:4433"
   } else if(server == "敬请期待"){
-    host = "soul.casks.me"
+    host = "www.ysycf.tk"
   }
   
   const { data, error } = useSWR(
