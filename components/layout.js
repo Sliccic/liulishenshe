@@ -4,7 +4,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-export const siteTitle = '<color=#f1b8f1>琉</color><color=#d9b8f1>璃</color><color=#f1ccb8>神</color><color=#f1f1b8>社</color>'
+export const siteTitle = '琉璃神社'
 
 export default function Layout({ children, home }) {
     return (
