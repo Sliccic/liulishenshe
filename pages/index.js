@@ -41,13 +41,13 @@ export default function Home({ allPostsData }) {
         
         <p class="text-center">
 
-          养成服 电脑：www.yuanshen.cf手机：https://www.yuanshen.cf 
+          养成服 电脑：www.yuanshen.cf          手机：https://www.yuanshen.cf                     
 <br/>
 
-          指令服 电脑：106.13.5.214:4433  手机：106.13.5.214:4433 
+          指令服 电脑：106.13.5.214:4433          手机：106.13.5.214:4433                     
 <br/>
 
-          测试服 电脑：敬请期待  手机：敬请期待 
+          测试服 电脑：敬请期待            手机：敬请期待                                    
 <br/>
 
         </p>
@@ -56,7 +56,7 @@ export default function Home({ allPostsData }) {
 
 
         <p class="description">
-        <a href="https://www.yuanshen.cf" target="_blank" rel="sponsored">主页
+        <a href="https://www.yuanshen.cf" target="_blank" rel="sponsored">主页                                            
 </a>
         </p>
 
