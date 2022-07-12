@@ -48,7 +48,7 @@ export default function Home({ allPostsData }) {
           <br/>
           养成服 电脑：www.yuanshen.cf          手机：https://www.yuanshen.cf<br/>
           <br/>
-          指令服 电脑：106.13.5.214:4433        手机：106.13.5.214:4433<br/>
+          指令服 电脑：106.13.5.214:4433        手机：https://106.13.5.214:4433<br/>
           <br/>
           测试服 电脑：敬请期待                  手机：敬请期待<br/>
           <br/>
