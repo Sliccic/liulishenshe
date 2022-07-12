@@ -35,7 +35,7 @@ export default function Layout({ children, home }) {
                     <a href="https://jq.qq.com/?_wv=1027&k=ZwPI5mOW" target="_blank" rel="sponsored">加群</a>
                 </p>
                 <p class="mt-4">
-                    <a href="https://github.com/casksteven/Casks-server" target="_blank" rel="sponsored">Power by ©琉璃神社 | Fork from @Casksteven | 原作者Yuki</a>
+                    Power by <a href="https://www.yuanshen.cf" target="_blank" rel="sponsored">©琉璃神社</a> | Fork from <a href="https://github.com/casksteven/Casks-server" target="_blank" rel="sponsored">@Casksteven</a> | 原作者<a href="https://github.com/akbaryahya/YuukiGame-Web" target="_blank" rel="sponsored">Yuki</a>
                 </p>
 
             </footer>
