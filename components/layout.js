@@ -11,7 +11,7 @@ export default function Layout({ children, home }) {
         <div className={styles.container}>
             <Head>                
                 <link rel="icon" href="/favicon.ico" />
-                <meta name="description" content="《原神》是由米哈游自研的一款开放世界冒险RPG。你将在游戏中探索一个被称作「提瓦特」的幻想世界。" />
+                <meta name="description" content="琉璃神社在线人数查看，如果你无法进入游戏而网页显示有人在线，那么请自行排查问题，如果服务器人数显示“？”，请联系管理员。" />
             </Head>
             <header>
 
