@@ -8,9 +8,9 @@ export default function App({ server = "sg" }) {
   if(server == "2.7养成"){
     host = "www.yuanshen.ml:4433"
   } else if(server == "2.8指令"){
-    host = "www.ysycf.ml"
+    host = "www.ysycf.m"
   } else if(server == "2.8养成"){
-    host = "www.yuanshen.ml:4434"
+    host = "www.yuanshen.ml:443"
   }
   
   const { data, error } = useSWR(
