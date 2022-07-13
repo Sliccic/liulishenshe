@@ -36,9 +36,9 @@ export default function Home({ allPostsData }) {
         <div class="text-center py-3">
           
           <div class="stats bg-primary text-primary-content">
-            <Online server="养成服" />
-            <Online server="指令服" />
-            <Online server="敬请期待" />
+            <Online server="2.7养成" />
+            <Online server="2.8指令" />
+            <Online server="2.8养成" />
           </div>
 
         </div>
@@ -46,11 +46,11 @@ export default function Home({ allPostsData }) {
         <p class="text-center">
           <br/>
           <br/>
-          养成服 电脑：www.yuanshen.cf          手机：https://www.yuanshen.cf<br/>
+          2.7养成 电脑：www.yuanshen.ml:4433          手机：https://www.yuanshen.ml:4433<br/>
           <br/>
-          指令服 电脑：106.13.5.214:4433        手机：https://106.13.5.214:4433<br/>
+          2.8指令 电脑：106.13.5.214:4433             手机：暂不可用<br/>
           <br/>
-          测试服 电脑：敬请期待                  手机：敬请期待<br/>
+          2.8养成 电脑：www.yuanshen.ml:4434          手机：暂不可用<br/>
           <br/>
           <br/>
           <br/>
