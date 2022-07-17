@@ -5,8 +5,8 @@ const fetcher = (url) => fetch(url).then((res) => res.json());
 export default function App({ server = "sg" }) {
 
   var host;
-  if(server == "2.7养成"){
-    host = "www.yuanshen.ml:4433"
+  if(server == "3.0前瞻"){
+    host = "285.ysycf.ml"
   } else if(server == "2.8指令"){
     host = "www.ysycf.ml"
   } else if(server == "2.8养成"){
