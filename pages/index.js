@@ -36,7 +36,7 @@ export default function Home({ allPostsData }) {
         <div class="text-center py-3">
           
           <div class="stats bg-primary text-primary-content">
-            <Online server="2.7养成" />
+            <Online server="3.0前瞻" />
             <Online server="2.8指令" />
             <Online server="2.8养成" />
           </div>
@@ -46,13 +46,13 @@ export default function Home({ allPostsData }) {
         <p class="text-center">
           <br/>
           <br/>
-          2.7养成 电脑：www.yuanshen.ml:4433          手机：https://www.yuanshen.ml:4433<br/>
+          3.0前瞻 电脑：https://www.123pan.com/s/PFbrVv-3PXzv提取码:llss          手机：暂不可用<br/>
           <br/>
           2.8指令 电脑：106.13.5.214:4433             手机：暂不可用<br/>
           <br/>
-          2.8养成 电脑：www.yuanshen.ml:4434          手机：暂不可用<br/>
+          2.8养成 电脑：www.yuanshen.ml:4434          手机：https://www.123pan.com/s/PFbrVv-hPXzv提取码:llss<br/>
           <br/>
-          <br/>
+          3.0不对外开放，仅供养成达到58级的人体验<br/>
           <br/>
           <br/>
         </p>
