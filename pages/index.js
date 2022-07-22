@@ -46,7 +46,7 @@ export default function Home({ allPostsData }) {
         <p class="text-center">
           <br/>
           <br/>
-          3.0前瞻 电脑：https://www.123pan.com/s/PFbrVv-3PXzv提取码:llss          手机：暂不可用<br/>
+          3.0前瞻 电脑：https://www.123pan.com/s/PFbrVv-2PXzv提取码:llss          手机：暂不可用<br/>
           <br/>
           2.8指令 电脑：106.13.5.214:4433             手机：暂不可用<br/>
           <br/>
