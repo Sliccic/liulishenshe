@@ -19,8 +19,7 @@ export default function App({ server = "sg" }) {
   
 
 
-
-    function setStatus() {
+  function setStatus() {
     var online;
     var mem;
     var url = `https://${host}/status/server`; 
@@ -36,7 +35,7 @@ export default function App({ server = "sg" }) {
             online = data.status.playerCount;
           }
 
-      if(typeof data.status.mem !== "undefined"){
+          if(typeof data.status.mem !== "undefined"){
             mem = "内存占用：" + data.status.mem;
           }
         }
@@ -59,8 +58,8 @@ export default function App({ server = "sg" }) {
   return (
 
       <div class="stat">
-        <div class="stat-title">{server}</div>
-        <div class="stat-value">{online}</div>
+        <div class="stat-title">{serName}</div>
+        <div class="stat-value" id={server + "_online}</div>
         <div class="stat-title" id={server + "_mem"}></div>
         <div class="stat-desc">在线人数</div>
       </div>
