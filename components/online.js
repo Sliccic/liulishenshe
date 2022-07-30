@@ -52,6 +52,7 @@ export default function App({ server = "sg" }) {
       <div class="stat">
         <div class="stat-title">{server}</div>
         <div class="stat-value">{online}</div>
+        <div class="stat-title" id={server + "_mem"}></div>
         <div class="stat-desc">在线人数</div>
       </div>
 
