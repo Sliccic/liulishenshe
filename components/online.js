@@ -5,6 +5,8 @@ const fetcher = (url) => fetch(url).then((res) => res.json());
 export default function App({ server = "sg" }) {
 
   var host;
+  var seraddress;
+  var serName;
   if(server == "s1"){
     serName = "3.0前瞻:"
     host = "285.ysycf.ml"
