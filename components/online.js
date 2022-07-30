@@ -26,8 +26,26 @@ export default function App({ server = "sg" }) {
       if(typeof data.status.playerCount !== "undefined"){
         online = data.status.playerCount;
       }
-    }
+
+      if(typeof data.status.mem !== "undefined"){
+            mem = "内存占用：" + data.status.mem;
+          }
+        }
+      }
+      document.getElementById(server + "_online").innerText = online;
+      document.getElementById(server + "_mem").innerText = mem;
+    })
+    .catch(error => {
+      console.error('Error:', error);
+      online = "服务器因该正常";
+
+      document.getElementById(server + "_online").innerText = online;
+      document.getElementById(server + "_mem").innerText = mem;
+    });
   }
+
+  setStatus();
+  setInterval(setStatus, 3000);
   
   return (
 
