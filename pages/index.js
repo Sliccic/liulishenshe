@@ -36,9 +36,9 @@ export default function Home({ allPostsData }) {
         <div class="text-center py-3">
           
           <div class="stats bg-primary text-primary-content">
-            <Online server="3.0前瞻" />
-            <Online server="2.8指令" />
-            <Online server="2.8养成" />
+            <Online server="s1" />
+            <Online server="s2" />
+            <Online server="s3" />
           </div>
 
         </div>
