@@ -1,7 +1,3 @@
-import useSWR from 'swr';
-
-const fetcher = (url) => fetch(url).then((res) => res.json());
-
 export default function App({ server = "sg" }) {
 
   var host;
@@ -21,19 +17,24 @@ export default function App({ server = "sg" }) {
     seraddress = "2.8养成 电脑：www.yuanshen.ml:4434 手机：https://www.123pan.com/s/PFbrVv-hPXzv提取码:llss"
   }
   
-  const { data, error } = useSWR(
-    `https://${host}/status/server`,
-    fetcher
-  );
 
-  console.log("tes", data);
 
-  var online = "?";
-  if(data){
-    if(data.status){
-      if(typeof data.status.playerCount !== "undefined"){
-        online = data.status.playerCount;
-      }
+
+    function setStatus() {
+    var online;
+    var mem;
+    var url = `https://${host}/status/server`; 
+    console.log("url", url);
+    mem = ""
+
+    fetch(url)
+    .then(res => res.json())
+    .then(data => {
+      if(data){
+        if(data.status){
+          if(typeof data.status.playerCount !== "undefined"){
+            online = data.status.playerCount;
+          }
 
       if(typeof data.status.mem !== "undefined"){
             mem = "内存占用：" + data.status.mem;
