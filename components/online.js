@@ -44,7 +44,7 @@ export default function App({ server = "sg" }) {
     })
     .catch(error => {
       console.error('Error:', error);
-      online = "服务器因该正常";
+      online = "寄";
 
       document.getElementById(server + "_online").innerText = online;
       document.getElementById(server + "_mem").innerText = mem;
