@@ -9,7 +9,7 @@ export default function App({ server = "sg" }) {
     seraddress = "在线人数"
   } else if(server == "s2"){
     serName = "2.8指令"
-    host = "www.ysycf.ml"
+    host = "game.ysycf.ml"
     seraddress = "在线人数"
   } else if(server == "s3"){
     serName = "2.8养成"
