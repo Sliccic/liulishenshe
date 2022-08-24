@@ -4,8 +4,8 @@ export default function App({ server = "sg" }) {
   var seraddress;
   var serName;
   if(server == "s1"){
-    serName = "3.0前瞻"
-    host = "285.ysycf.ml"
+    serName = "3.0养成"
+    host = "www.yuanshen.cf:4433"
     seraddress = "在线人数"
   } else if(server == "s2"){
     serName = "2.8指令"
