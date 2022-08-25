@@ -8,13 +8,13 @@ export default function App({ server = "sg" }) {
     host = "www.yuanshen.cf:4433"
     seraddress = "在线人数"
   } else if(server == "s2"){
-    serName = "2.8指令"
+    serName = "3.0指令"
     host = "game.ysycf.ml"
     seraddress = "在线人数"
   } else if(server == "s3"){
-    serName = "2.8养成"
-    host = "www.yuanshen.ml:4434"
-    seraddress = "在线人数"}
+    serName = "敬请期待"
+    host = "敬请期待"
+    seraddress = "敬请期待"}
   
 
 
