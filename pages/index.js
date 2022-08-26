@@ -50,7 +50,7 @@ export default function Home({ allPostsData }) {
           <br/>
           3.0指令 电脑：106.13.5.214:4433             手机：暂不可用<br/>
           <br/>
-          敬请期待 电脑：敬请期待          手机：敬请期待<br/>
+          3.1东方 电脑：暂不开放          手机：暂不开放<br/>
           <br/>
           <br/>
           <br/>
