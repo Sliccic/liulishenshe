@@ -12,9 +12,9 @@ export default function App({ server = "sg" }) {
     host = "game.ysycf.ml"
     seraddress = "在线人数"
   } else if(server == "s3"){
-    serName = "敬请期待"
-    host = "敬请期待"
-    seraddress = "敬请期待"}
+    serName = "3.1东方"
+    host = "285.ysycf.ml"
+    seraddress = "在线人数"}
   
 
 
